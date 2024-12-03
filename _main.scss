@@ -1,0 +1,43 @@
+section {
+  .mapSet {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    .mapSet__box {
+      padding: 20px 20px;
+      width: 100%;
+      max-width: 500px;
+      height: 380px;
+      border: solid rgb(97, 93, 92);
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      background-color: #ccc;
+      box-shadow: 3px 3px #969393;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      .mapSet__title {
+        font-size: 26px;
+      }
+      .mapSet__desc {
+        font-size: 20px;
+      }
+      .mapSet__text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+      .mapSet__syntax {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}

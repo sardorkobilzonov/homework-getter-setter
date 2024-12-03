@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Set</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__h1">
+          <h1>Map/Set</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section>
+          <div class="mapSet">
+            <div class="mapSet__box">
+              <h3 class="mapSet__title">Map</h3>
+              <div class="mapSet__desc">Description</div>
+              <div class="mapSet__text">
+                <strong>Map</strong> ob'ektlari kalit-qiymat juftliklari
+                to'plamidir. <strong>Map</strong>dagi kalit faqat bir marta
+                paydo bo'lishi mumkin; <strong>Map</strong> kolleksiyasida
+                noyobdir. <strong>Map</strong> obyekti kalit-qiymat juftliklari
+                orqali takrorlanadi — for...of tsikli har bir iteratsiya uchun 2
+                aʼzoli [kalit, qiymat] array qaytaradi.
+              </div>
+              <div class="mapSet__syntax">
+                <div class="mapSet__code">
+                  const wrongMap = new Map(); <br />
+                  wrongMap["bla"] = "blaa";<br />
+                  wrongMap["bla2"] = "blaaa2";<br />
+
+                  console.log(wrongMap); <br />
+                  // Map { bla: 'blaa', bla2: 'blaaa2' }
+                </div>
+              </div>
+            </div>
+            <div class="mapSet__box">
+              <h3 class="mapSet__title">Set</h3>
+              <div class="mapSet__desc">Description</div>
+              <div class="mapSet__text">
+                <strong>Set</strong> ob'ektlari qiymatlar to'plamidir.
+                To'plamdagi qiymat faqat bir marta bo'lishi mumkin; u to'plam
+                kolleksiyasida noyobdir. Siz qo'shish tartibida to'plam
+                elementlarini takrorlashingiz mumkin.
+              </div>
+              <div class="mapSet__syntax">
+                <div class="mapSet__code">
+                  const a = new Set([1, 2, 3]); <br />
+                  const b = new Map([ <br />
+                  [1, "one"], <br />
+                  [2, "two"], <br />
+                  [4, "four"], <br />
+                  ]); <br />
+                  console.log(a.union(b)); <br />
+                  // Set(4) {1, 2, 3, 4}
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
